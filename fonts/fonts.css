@@ -1,0 +1,31 @@
+/*FONTS.CSS*/
+/* YOUR CUSTOM FONTS CAN BE DEFINED HERE VIA CSS3 FONT-FACE TECHNOLOGY*/
+/* More info : http://nicewebtype.com/notes/2009/10/30/how-to-use-css-font-face/ */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Barkentina_1';
+  src: url('barkentina.eot');
+  src: url('barkentina.eot?#iefix') format('embedded-opentype'),
+  url('barkentina.woff') format('woff'),
+  url('barkentina.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+.font1 {
+  font-family: 'Barkentina';
+}
+.font2 {
+  font-family: 'Courgette', cursive !important;
+}
+.font3 {
+  font-family: 'Barkentina';
+}
+
+.font4 {
+  font-family: 'Amerikaregular';
+}

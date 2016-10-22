@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Ресторан Olivka | Сезонное меню</title>
+    <script type="text/javascript" src="javascripts/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/libs/modernizr.js"></script>
+    <script type="text/javascript" src="javascripts/libs/turn/turn.js"></script>
+    <link rel="stylesheet" href="stylesheets/turn/style.css">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <!-- Standard iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="fonts/fonts.css" rel="stylesheet">
+</head>
+<body>
+<div class="viewport">
+    <div id="flipbook">
+        <div ignore="1">
+            <div class="left">  </div>
+            <div class="right"> </div>
+        </div>
+        <div class="hard"><img class="firstPage" src="img/interactive_menu/seasonal_offer/1.jpg" alt=""/></div>
+        <div class="hard"></div>
+        <div class="hard"></div>
+        <div class="hard"><img class="firstPage" src="img/interactive_menu/seasonal_offer/4.jpg" alt=""/></div>
+    </div>
+</div>
+<script type="text/javascript" src="javascripts/libs/turn/seasonal_offer_interactive_menu.js"></script>
+<script type="text/javascript">
+    var maxWidth = $(window).width();
+    var maxHeight = $(window).height();
+
+    var flipbook = $("#flipbook").turn({
+        width: 860*2,
+        height: 700,
+        autoCenter: true,
+        duration: 1500,
+        when: {
+            start: function (e, page, view) {
+                loadImagesWithShadow(page.page);
+                $("#flipbook").turn('update');
+                var book = $(this);
+
+                updateTabs();
+
+
+            },
+            turning: function(e, page, view) {
+
+                var book = $(this);
+                console.log(book.totalPages);
+
+                /*book.turn('center');*/
+                updateTabs();
+
+            }
+        }
+
+    });
+
+    $("#flipbook").addClass('animated');
+
+
+</script>
+
+</body>
+</html>

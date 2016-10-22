@@ -1,0 +1,201 @@
+.modem_status_bar {
+    width: 95%;
+    float: right;
+    /*margin-top: -2px;*/
+}
+
+.modem_status_number {
+    display: inline;
+}
+
+.modem_status_bar_first, .modem_status_bar_second, .modem_status_bar_third {
+    display: inline-block;
+    float: left;
+    height: 18px;
+}
+
+.modem_status_bar > .modem_status_bar_first {
+    background: #9999FF;
+    width: 56%;
+    border-bottom-left-radius: 0.55em;
+    border-top-left-radius: 0.55em;
+    border: 1px solid black;
+}
+
+.modem_status_bar > .modem_status_bar_second {
+    background: #00FFFF;
+    width: 28%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.modem_status_bar > .modem_status_bar_third {
+    background: #9999FF;
+    width: 13.1%;
+    border-top-right-radius: 0.55em;
+    border-bottom-right-radius: 0.55em;
+    border: 1px solid black;
+}
+
+.modem_status_bar_state_red, .modem_status_bar_state_green {
+    height: 9px;
+    margin-top: -15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    border-radius: 3em;
+    border: 1px solid rgb(59, 59, 59);
+}
+
+.modem_status_bar > .modem_status_bar_state_green {
+    background: #01FF00;
+}
+
+.modem_status_bar > .modem_status_bar_state_red {
+    background: #FF0000;
+}
+
+.customer_acc_detailed .widget-header {
+    display: none
+}
+
+.customer_acc_detailed .main-par-layout .column .group-name {
+    background: #6699CC none !important;
+}
+
+.customer_acc_detailed .main-par-layout .column tr.group-name:last-child {
+    background: #F874BC none !important;
+}
+
+.customer_acc_detailed > .widget-content > div > form > table > tbody > tr > td > table > tbody > tr:nth-of-type(16).group-name {
+    background: #d54491 none !important;
+}
+
+.customer_acc_detailed .nc-parctrl-group-name-label {
+    color: white;
+}
+
+.customer_acc_modem_inf .widget-header, .customer_acc_modem_child_params .widget-header, .customer_acc_modem_child_params .empty-toolbars, .customer_acc_modem_inf .empty-toolbars {
+    display: none
+}
+
+
+
+.customer_acc_modem_inf .main-par-layout .column .group-name {
+    background: #8CAA6E none !important;
+}
+
+.customer_acc_modem_inf .nc-parctrl-group-name-label {
+    color: white;
+}
+
+.customer_acc_modem_inf .nc-field-text-readonly {
+    padding-left: 20px;
+}
+
+.customer_acc_modem_inf .main-par-layout .column .gwt-row > td {
+    border: 1px solid #dae7f1;
+}
+
+.customer_acc_modem_inf .main-par-layout .column > tbody > tr.gwt-row > td.nc-parctrl-cell-label {
+    width: 220px;
+}
+
+.customer_acc_modem_inf .main-par-layout .column .gwt-row > td.nc-parctrl-cell-label > div.nc-field-label {
+    max-width: 300px;
+}
+
+.JCOM-refresh-icon {
+    background-image: url('../../../../img/icon-refresh.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 10px center !important;
+    text-indent: -9999px;
+    padding: 0 20px !important;
+}
+
+.JCOM-ping-modem-icon {
+    background-image: url('../../../../img/ico/types/ico_modem.gif') !important;
+    background-repeat: no-repeat !important;
+    background-position: 10px center !important;
+    padding-left: 30px !important;
+}
+
+.TableCtrl-button-icon.DisconnectIco {
+    background-image: url('../../../../JCOM/images/contract_sign_double_cancel.png') !important;
+    background-repeat: no-repeat !important;
+}
+
+
+.TableCtrl-button-icon.SuspendIco {
+    background-image: url('../../../../JCOM/images/order_sales_history.png') !important;
+    background-repeat: no-repeat !important;
+}
+
+.JCOM-RebootIco {
+    background: url('../../../../img/ico/ico_refresh.gif') no-repeat 10px center !important;
+    padding-left: 30px !important;
+}
+
+.TableCtrl-button-icon.DeleteIco {
+    background-image: url('../../../../images/ico_delete.gif') !important;
+    background-repeat: no-repeat !important;
+}
+
+
+.nc-toolbar-part.nc-toolbar-part-left > div.nc-toolbar-cell.TableCtrl-button-wrapper.TableCtrl_refresh_button-wrapper {
+    float:right !important;
+}
+
+td > .colspan:last-of-type
+{
+    background-color: green; !important;
+}
+
+/*Customer Account Details (ALSH)*/
+.customer_acc_detailed_alsh_left .main-par-layout .column .group-name {
+    background: #6699CC none !important;
+}
+
+.customer_acc_detailed_alsh_left > .widget-content > div > form > table > tbody > tr > td > table > tbody > tr:nth-of-type(18).group-name {
+    background: #d54491 none !important;
+}
+
+.customer_acc_detailed_alsh .nc-parctrl-group-name-label {
+    color: white;
+}
+
+.customer_acc_detailed_alsh .main-par-layout .column > tbody > tr.gwt-row.group-name > td {
+    border: none;
+}
+
+.customer_acc_detailed_alsh .nc-field-text-readonly {
+    padding-left: 20px;
+}
+
+.customer_acc_detailed_alsh .widget-header {
+    display: none
+}
+
+.customer_acc_detailed_alsh .nc-toolbar-top .nc-toolbar-cell {
+    border: none;
+}
+
+.customer_acc_detailed_alsh_right .main-par-layout .column .group-name {
+    background: #339966 none !important;
+}
+
+.computer_information_widget > div > div > div > div.nc-toolbars-bottom > .nc-toolbar-bottom {
+    display: block !important;
+}
+
+.computer_information_widget > div > div > div > div.nc-toolbars-bottom > .nc-toolbar-bottom .or-button {
+    display: none !important;
+}
+
+.customer_acc_detailed_alsh .main-par-layout .column > tbody > tr.gwt-row > td.nc-parctrl-cell-label {
+    width: 220px;
+}
+
+
+div.customer_acc_detailed_alsh.customer_acc_detailed_alsh_right div.widget-content div.nc-composite-top-layout div.nc-composite-layout-wrapper table
+{ width:100%; }

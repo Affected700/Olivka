@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/img/interactive_menu/buttons/tab-hover.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/img/interactive_menu/buttons/tab-off.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/img/interactive_menu/buttons/tab-on.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/interactive_menu.html" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/javascripts/libs/turn/turn.js" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/stylesheets/turn/style.css" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/summer_menu.html" charset="windows-1251" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

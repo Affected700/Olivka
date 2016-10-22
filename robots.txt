@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /
+Allow: /index.html
+Allow: /sitemap.xml
+Allow: /robots.txt
+Sitemap: http://olivka-tlt.ru/sitemap.xml
