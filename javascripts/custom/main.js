@@ -1025,10 +1025,8 @@ jQuery(window).load(function () {
         $('.menu-fillter li a').removeClass('focused-menu-type');
         var menu_filter = $(this).attr('data-filter');
 
-        console.log("MENU FILTER: " + menu_filter);
         if (menu_filter == '.seasonal_offer')
         {
-            console.log('YES');
             var win = window.open("seasonal_offer_interactive_menu.html", '_blank');
             win.focus();
         }
